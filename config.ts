@@ -91,6 +91,6 @@ export default {
   // Audio settings
   audio: {
     src: "/birthday_song.mp3",
-    title: "Happy Birthday Piano",
+    title: "Happy Birthday by Duduuu",
   },
 }
