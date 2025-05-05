@@ -114,7 +114,7 @@ export default function Home() {
           className="max-w-2xl mx-auto bg-white/80 backdrop-blur-sm p-8 rounded-2xl shadow-lg my-16"
         >
           <p className={`${dancingScript.className} text-2xl md:text-3xl text-center text-pink-700 mb-4`}>
-            To my incredible girlfriend,
+            To my incredible Shineyyyy,
           </p>
           <p className={`${playfair.className} text-lg text-center text-gray-800 leading-relaxed`}>
             {config.firstMessage}
@@ -138,7 +138,7 @@ export default function Home() {
           className="max-w-2xl mx-auto bg-violet-100/90 backdrop-blur-sm p-8 rounded-2xl shadow-lg my-16 border border-violet-200"
         >
           <p className={`${dancingScript.className} text-2xl md:text-3xl text-center text-violet-700 mb-4`}>
-            You are special because...
+            You are meri special gulupuchuuu because...
           </p>
           <p className={`${playfair.className} text-lg text-center text-gray-800 leading-relaxed`}>
             {config.secondMessage}
@@ -148,7 +148,7 @@ export default function Home() {
         {/* Video Carousel */}
         <section className="my-16">
           <h2 className={`${dancingScript.className} text-3xl md:text-4xl text-center text-pink-600 mb-8`}>
-            Beautiful Memories
+            Hamari Saxxy and Beautiful Memories
           </h2>
           <VideoCarousel videos={config.videos} />
         </section>
