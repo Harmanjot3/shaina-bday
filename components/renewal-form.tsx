@@ -32,15 +32,14 @@ export function RenewalForm() {
       // For demonstration, we'll simulate a successful submission
       await new Promise((resolve) => setTimeout(resolve, 1500))
 
-      // Uncomment the below code and replace with your actual EmailJS credentials
-      /*
+    
       await emailjs.send(
-        'YOUR_SERVICE_ID',
-        'YOUR_TEMPLATE_ID',
+        'service_s7ylpzb',
+        'template_1dmwd2h',
         templateParams,
-        'YOUR_PUBLIC_KEY'
+        '5bp6FYYb6yPAJlFDT'
       );
-      */
+      
 
       setStatus("success")
       setName("")
