@@ -4,7 +4,7 @@ import "./globals.css"
 import Script from "next/script"
 
 export const metadata: Metadata = {
-  title: "Happy Birthday!",
+  title: "Happy Birthday bubuuuuuuu!",
   description: "A special birthday tribute for my amazing girlfriend",
     generator: 'v0.dev'
 }

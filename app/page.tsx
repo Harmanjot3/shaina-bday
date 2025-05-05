@@ -98,7 +98,7 @@ export default function Home() {
               transition: "opacity 1s ease-in-out",
             }}
           >
-            Happy Birthday!
+            Happy Birthday Meri Bubuuu!
           </h1>
           <div className="mt-8 w-full max-w-sm mx-auto">
             <Heart />
