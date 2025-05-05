@@ -67,7 +67,6 @@
     "@react-three/fiber": "latest",
     "@react-three/drei": "latest",
     "react-swipeable": "latest",
-    "tailwindcss": "latest",
     "gsap": "latest"
   },
   "devDependencies": {

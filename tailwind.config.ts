@@ -1,14 +1,10 @@
 import type { Config } from "tailwindcss"
-const defaultTheme = require("tailwindcss/defaultTheme")
 
 const config: Config = {
-  darkMode: ["class"],
   content: [
-    "./app/**/*.{ts,tsx}",
-    "./components/**/*.{ts,tsx}",
+    "./app/**/*.{js,ts,jsx,tsx,mdx}",
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./app/**/*.{js,ts,jsx,tsx,mdx}",
     "*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
@@ -91,7 +87,7 @@ const config: Config = {
         sm: "calc(var(--radius) - 4px)",
       },
       fontFamily: {
-        sans: ["var(--font-inter)", ...defaultTheme.fontFamily.sans],
+        sans: ["var(--font-sans)", "system-ui", "sans-serif"],
         script: ["var(--font-dancing-script)", "cursive"],
         display: ["var(--font-playfair-display)", "serif"],
       },
@@ -100,7 +96,7 @@ const config: Config = {
       },
     },
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [],
 }
 
 export default config
