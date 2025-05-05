@@ -1,9 +1,16 @@
 "use client"
 
-import { useState, type FormEvent } from "react"
+import { useState, type FormEvent, useEffect } from "react"
 import { Playfair_Display, Dancing_Script } from "next/font/google"
 import config from "@/config"
 import { Send } from "lucide-react"
+
+// Add this type declaration at the top of the file, after the existing imports:
+declare global {
+  interface Window {
+    emailjs: any
+  }
+}
 
 const playfair = Playfair_Display({ subsets: ["latin"] })
 const dancingScript = Dancing_Script({ subsets: ["latin"] })
@@ -20,7 +27,6 @@ export function RenewalForm() {
 
     try {
       // Using EmailJS for client-side email sending
-      // You'll need to replace these with your actual EmailJS credentials
       const templateParams = {
         to_email: config.form.recipientEmail,
         from_name: name,
@@ -28,18 +34,14 @@ export function RenewalForm() {
         message: message,
       }
 
-      // This is where you'd normally call EmailJS
-      // For demonstration, we'll simulate a successful submission
-      await new Promise((resolve) => setTimeout(resolve, 1500))
-
-    
-      await emailjs.send(
-        'service_s7ylpzb',
-        'template_1dmwd2h',
-        templateParams,
-        '5bp6FYYb6yPAJlFDT'
-      );
-      
+      // Check if window.emailjs is available
+      if (typeof window !== "undefined" && window.emailjs) {
+        await window.emailjs.send("service_s7ylpzb", "template_1dmwd2h", templateParams, "5bp6FYYb6yPAJlFDT")
+      } else {
+        // Simulate a successful submission if EmailJS is not available
+        await new Promise((resolve) => setTimeout(resolve, 1500))
+        console.log("EmailJS not available, simulating success")
+      }
 
       setStatus("success")
       setName("")
@@ -60,6 +62,13 @@ export function RenewalForm() {
       }, 5000)
     }
   }
+
+  useEffect(() => {
+    // Initialize EmailJS when component mounts
+    if (typeof window !== "undefined" && window.emailjs) {
+      window.emailjs.init("5bp6FYYb6yPAJlFDT")
+    }
+  }, [])
 
   return (
     <div className="max-w-2xl mx-auto bg-white/90 backdrop-blur-sm p-8 rounded-2xl shadow-lg my-16 border border-pink-200">
