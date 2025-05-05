@@ -10,7 +10,7 @@ export default {
 
   // Second message (will appear in the second message box)
   secondMessage:
-    "Meri gulupuchu, Once again, Happy Birthday, my love.It’s your second birthday since I came into your life, and just like that, two have gone. Many, many more are waiting for us—wrapped in laughter, late-night talks, inside jokes, and all the quiet, soft moments we’ve yet to live.On this day, I promise: I’ll be there.By your side.Every birthday.Every year.Until the very end.Tonight, we dance on “Type Shit” like no one’s watching—like it's just you and me, caught in the beat, wild and stupidly in love.Later, we lie back, maybe with “Cigarettes After Sex – Locked In Here Forever and just cant say goodbyee” playing low, our fingers tangled like we’re trying to hold onto time itself. Because honestly, I never want to leave these moments. Never want to say goodbye—not even to this day.I just can’t say goodbye to you.Not tonight. Not ever.You’re the best thing that’s ever happened to my little messed-up world.Happy Birthday, meri bubuuu. Here’s to all the birthdays we’ll spend locked in each other’s arms.",
+    "Meri Shineyyy , you know , how mych i love you and how much you matter to me , you are so special dear , and you deserve the best princess treatment , in the world. I was like a dead sunflower on the verge of dying , no hopes left for anything. But the moment you enetered my life , sab badal gaya bubuuu. You are the one who made me follow. You came into my life like a sunshine full of happiness , hope , prosperity and Good luck. You literally bubuu made me feel like a king , thats why you deserve the princess treatment , even princess treatment kamm hai tere liye , godess treatment suits best , i literally worship you meri bubuuuu. My day starts thinking about you and ends with you. We two are perfect bakchod people from twerking on Type shit to crying while listening to Ciggerates after sex- Apocalpyse. We are there for each other. Have a great birthday gulupuchuuu , I hope to meet you soon bubu. H❤️S foreverr!!!",
 
   // Photos to display in the carousel
   // To replace these with your own photos:
@@ -18,24 +18,24 @@ export default {
   // 2. Update the paths below to point to your images
   photos: [
     {
-      src: "/placeholder.svg?height=800&width=1200",
-      caption: "Our first date at the beach",
+      src: "/images/1.jpeg",
+      caption: "Us looking at each other with love and hawas",
     },
     {
-      src: "/placeholder.svg?height=800&width=1200",
-      caption: "That amazing concert we went to",
+      src: "/images/2.jpeg",
+      caption: "Kitni cute lag rahi hai na meri gulupuchuu",
     },
     {
-      src: "/placeholder.svg?height=800&width=1200",
-      caption: "Hiking adventure",
+      src: "/images/3.jpeg",
+      caption: "Chotti shineyy",
     },
     {
-      src: "/placeholder.svg?height=800&width=1200",
-      caption: "Coffee shop where we first met",
+      src: "/images/4.jpeg",
+      caption: "Firse Side-pose wali shineyy",
     },
     {
-      src: "/placeholder.svg?height=800&width=1200",
-      caption: "Weekend getaway",
+      src: "/images/5.jpeg",
+      caption: "Dhoom Machale , shineyy edition",
     },
   ],
 
@@ -45,14 +45,14 @@ export default {
   // 2. Update the paths below to point to your videos
   videos: [
     {
-      src: "/placeholder.mp4",
+      src: "/videos/1st.mp4",
       poster: "/placeholder.svg?height=800&width=1200",
-      caption: "Our road trip memories",
+      caption: "Our church wali trip",
     },
     {
-      src: "/placeholder.mp4",
+      src: "/videos/2nd.MOV",
       poster: "/placeholder.svg?height=800&width=1200",
-      caption: "Dancing in the rain",
+      caption: "French ka exammmmm , HuihuiHuiHui",
     },
   ],
 
