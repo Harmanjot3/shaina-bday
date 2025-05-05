@@ -10,7 +10,7 @@ export default {
 
   // Second message (will appear in the second message box)
   secondMessage:
-    "You see beauty in everything around you. Your eye for design is incredible, and I love watching your face light up when you talk about your creative projects. The way you find inspiration in the smallest details makes me appreciate the world in new ways. Your dedication to your craft and your endless creativity are just two of the countless reasons why I love you so much.",
+    "Meri gulupuchu, Once again, Happy Birthday, my love.It’s your second birthday since I came into your life, and just like that, two have gone. Many, many more are waiting for us—wrapped in laughter, late-night talks, inside jokes, and all the quiet, soft moments we’ve yet to live.On this day, I promise: I’ll be there.By your side.Every birthday.Every year.Until the very end.Tonight, we dance on “Type Shit” like no one’s watching—like it's just you and me, caught in the beat, wild and stupidly in love.Later, we lie back, maybe with “Cigarettes After Sex – Locked In Here Forever and just cant say goodbyee” playing low, our fingers tangled like we’re trying to hold onto time itself. Because honestly, I never want to leave these moments. Never want to say goodbye—not even to this day.I just can’t say goodbye to you.Not tonight. Not ever.You’re the best thing that’s ever happened to my little messed-up world.Happy Birthday, meri bubuuu. Here’s to all the birthdays we’ll spend locked in each other’s arms.",
 
   // Photos to display in the carousel
   // To replace these with your own photos:
